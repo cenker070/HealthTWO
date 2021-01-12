@@ -20,9 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a5beb15-8a36-4cd5-a9ef-01e8a5a977bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/HealthTWO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HealthTWO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20210112113847.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Medicijn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/MedicijnRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/HealthOne.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/HealthOneRepository.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +140,7 @@
       <updated>1610387546449</updated>
       <workItem from="1610387547508" duration="1200000" />
       <workItem from="1610388961609" duration="2228000" />
-      <workItem from="1610447087224" duration="1973000" />
+      <workItem from="1610447087224" duration="3306000" />
     </task>
     <servers />
   </component>
