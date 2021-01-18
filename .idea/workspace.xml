@@ -20,7 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a5beb15-8a36-4cd5-a9ef-01e8a5a977bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/artikelController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/homepage/bezoeker.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/HealthTWO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HealthTWO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/website.html.twig" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +114,7 @@
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/twbs/bootstrap" />
     </include_path>
   </component>
   <component name="ProjectId" id="1mvwoQYBm4K70bdCmsSvzaxbzZ5" />
@@ -119,10 +130,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../karting4" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\HealthTWO\templates\homepage" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -135,6 +151,10 @@
       <workItem from="1610387547508" duration="1200000" />
       <workItem from="1610388961609" duration="2228000" />
       <workItem from="1610447087224" duration="3651000" />
+      <workItem from="1610647212752" duration="1416000" />
+      <workItem from="1610653222949" duration="1810000" />
+      <workItem from="1610993568676" duration="499000" />
+      <workItem from="1610994077512" duration="2202000" />
     </task>
     <servers />
   </component>
@@ -157,10 +177,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="185" key="SettingsEditor" timestamp="1610388950136">
+    <state x="801" y="284" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610994346185">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="461" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1610388950136" />
+    <state x="801" y="284" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1610994346185" />
+    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1610995925698">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1610995925698" />
+    <state x="751" y="263" key="NewPhpClassDialog" timestamp="1610994285481">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="751" y="263" key="NewPhpClassDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1610994285481" />
+    <state x="461" y="185" key="SettingsEditor" timestamp="1610994067494">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1610994067494" />
     <state x="616" y="250" key="run.anything.popup" timestamp="1610387769303">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
